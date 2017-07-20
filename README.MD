@@ -106,6 +106,21 @@ echo "Success\\!\n"
 
 
 
+## Manually Install Extensions
+
+```
+cd %USERPROFILE%\.vscode\extensions
+git clone https://github.com/dbankier/vscode-instant-markdown.git
+cd vscode-instant-markdown
+npm install
+```
+
+1. https://github.com/dbankier/vscode-instant-markdown#install-manual
+
+
+
+
+
 ___
 # License
 
