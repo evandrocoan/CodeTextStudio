@@ -3,10 +3,10 @@
     [
         {
             "path": ".",
-            "folder_exclude_patterns":
+            "file_exclude_patterns":
             [
+                "extensions/felixfbecker.php-intellisense-1.4.3/vendor/webmozart/assert/README.md"
             ],
         },
-
     ]
 }
