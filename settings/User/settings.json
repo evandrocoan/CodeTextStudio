@@ -1,0 +1,45 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "terminal.integrated.shell.windows": "D:\\User\\Documents\\Cygwin64\\bin\\sh.exe",
+    "terminal.integrated.shellArgs.windows": ["-l"],
+    "editor.fontSize": 15,
+    "markdown.preview.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "workbench.colorTheme": "NotepadPlusPlus Remixed Theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.activityBar.visible": false,
+    "editor.mouseWheelScrollSensitivity": 3,
+    "window.zoomLevel": 1.1,
+    "editor.rulers": [ 100 ],
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "none",
+    "workbench.colorCustomizations":
+    {
+        "editor.foreground": "#000000",
+        "editor.background": "#FFFFFF",
+        "editorLineNumber.foreground": "#8c8c8c",
+        "editor.lineHighlightBackground": "#DADAFF",
+        "editor.findMatchBackground": "#B9B9B9",
+        "editor.wordHighlightBackground": "#B9B9B9",
+        "editor.inactiveSelectionBackground": "#B9B9B9",
+        "editor.findMatchHighlightBackground": "#FFCC66",
+        "editor.wordHighlightStrongBackground": "#75D975",
+        "editor.findRangeHighlightBackground": "#75D975",
+        "editor.selectionHighlightBackground": "#75D975",
+        "editor.rangeHighlightBackground": "#6699CC",
+        "editor.selectionBackground": "#B9B9B9",
+        "editor.selectionBorder": "#000000",
+        "editorGutter.background": "#F0F0F0"
+    },
+    "editor.minimap.showSlider": "always",
+    "indenticator.style": "dotted",
+    "indenticator.color.light": "#FF0000",
+    "files.defaultLanguage": "cpp",
+    "files.associations": 
+    {
+        "*.sma": "pawn",
+        "*.inc": "pawn"
+    },
+    "workbench.commandPalette.preserveInput": true,
+    "editor.autoIndent": true
+}
