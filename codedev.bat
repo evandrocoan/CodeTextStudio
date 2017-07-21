@@ -15,7 +15,7 @@
 
 :: Windows - Run process on background after closing cmd
 :: https://superuser.com/questions/1069972/windows-run-process-on-background-after-closing-cmd
-start /B /min .\source\scripts\code.bat --user-data-dir "%~dp0settings" --extensions-dir "%~dp0settings\extensions" %*
+start /B /min .\source\scripts\code.bat --user-data-dir "%~dp0settings" --extensions-dir "%~dp0extensions" %*
 
 
 

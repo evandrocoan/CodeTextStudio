@@ -15,7 +15,7 @@
 
 :: Escaping Double Quotes in Batch Script
 :: https://stackoverflow.com/questions/562038/escaping-double-quotes-in-batch-script
-wscript .\tools\scripts\silent_run.vbs ".\source\scripts\code.bat" --user-data-dir "%~dp0settings" --extensions-dir "%~dp0settings\extensions" %*
+wscript .\tools\scripts\silent_run.vbs ".\source\scripts\code.bat" --user-data-dir "%~dp0settings" --extensions-dir "%~dp0extensions" %*
 
 
 

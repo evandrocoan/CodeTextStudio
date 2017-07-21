@@ -4,13 +4,13 @@
 # Start ignoring things
 *.sublime-workspace
 
+extensions
 
 settings/Backups
 settings/Cache
 settings/CachedData
 settings/Cookies
 settings/-journal
-settings/extensions
 settings/Cookies-journal
 settings/User/projects.json
 settings/GPUCache
