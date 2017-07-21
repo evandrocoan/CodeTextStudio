@@ -5,5 +5,16 @@
 *.sublime-workspace
 
 
-
+settings/Backups
+settings/Cache
+settings/CachedData
+settings/Cookies
+settings/-journal
+settings/extensions
+settings/Cookies-journal
+settings/User/projects.json
+settings/GPUCache
+settings/Local Storage
+settings/Preferences
+settings/storage.json
 
