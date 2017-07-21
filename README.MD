@@ -108,14 +108,24 @@ echo "Success\\!\n"
 
 ## Manually Install Extensions
 
+First make sure you do not have the extension installed in `~/.vscode/extensions` and that you have
+TypeScript installed:
+```
+npm install -g typescript
+```
+
+Then clone the repo somewhere else on your machine, run `npm install && tsc -p .`
+and open a development instance of Code.
 ```
 cd %USERPROFILE%\.vscode\extensions
 git clone https://github.com/dbankier/vscode-instant-markdown.git
 cd vscode-instant-markdown
 npm install
+tsc -p .
 ```
 
 1. https://github.com/dbankier/vscode-instant-markdown#install-manual
+1. https://github.com/Microsoft/vscode-go/pull/33/files
 
 
 
