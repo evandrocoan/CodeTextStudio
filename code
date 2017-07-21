@@ -13,6 +13,6 @@
 # All command line arguments passed to this file
 # %*
 
-./vscode/scripts/code.sh --user-data-dir "F:\VSCodeStudio\settings" --extensions-dir "F:\VSCodeStudio\extensions" . %*
+./vscode/scripts/code.sh --user-data-dir "F:/VSCodeStudio/settings" --extensions-dir "F:/VSCodeStudio/settings/extensions" . %*
 
 
