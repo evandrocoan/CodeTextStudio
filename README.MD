@@ -1,7 +1,7 @@
 # VSCode Studio
 
-An incredible set of settings/packages/shortcuts for Visual Studio Code. Currently it is optimized
-to program on:
+An incredible set of settings/packages/shortcuts for Electron Code Open Source Software (Code -
+OSS) editor [vscode](https://github.com/Microsoft/vscode). Currently it is optimized to program on:
 
 1. Working on...
 
@@ -143,7 +143,8 @@ For more information see:
 1. The [LICENSE](LICENSE) file for the GPL v3.0 license
 1. The website https://www.gnu.org/licenses/gpl-3.0.en.html
 
-All the other files within each git submodule have its own license specified.
+All the other files within each git submodule have its own license specified. You can see the list
+of git submodules on the file [.gitmodules](.gitmodules) on this project root directory.
 
 
 
