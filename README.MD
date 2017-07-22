@@ -1,7 +1,9 @@
-# VSCode Studio
+# Code Text Studio
 
-An incredible set of settings/packages/shortcuts for Electron Code Open Source Software (Code -
-OSS) editor [vscode](https://github.com/Microsoft/vscode). Currently it is optimized to program on:
+An incredible set of settings/packages/shortcuts for the
+[Electron](https://github.com/electron/electron)'s based Code Open Source Software (Code - OSS)
+advanced text editor [https://github.com/Microsoft/vscode](https://github.com/Microsoft/vscode).
+Currently it is optimized to program on:
 
 1. Working on...
 
