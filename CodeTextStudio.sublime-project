@@ -1,0 +1,25 @@
+{
+    "folders":
+    [
+        {
+            "path": ".",
+            "file_exclude_patterns":
+            [
+                "settings/Cookies",
+                "settings/Cookies-journal",
+
+                // The next file is excluded because it is causing Sublime Text to crash. Issue:
+                // https://github.com/SublimeTextIssues/Core/issues/1824
+                "extensions/felixfbecker.php-intellisense-1.4.3/vendor/webmozart/assert/README.md",
+            ],
+            "folder_exclude_patterns":
+            [
+                "settings/Cache",
+                "settings/CachedData",
+                "settings/GPUCache",
+                "settings/Local Storage",
+            ],
+
+        },
+    ]
+}

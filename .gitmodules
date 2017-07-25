@@ -1,5 +1,5 @@
 [submodule "vscode"]
-	path = source
+	path = vscode
 	url = https://github.com/evandrocoan/vscode
 [submodule ".versioning"]
 	path = tools/.versioning
