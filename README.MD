@@ -63,9 +63,17 @@ printf "Success\!\n"
 1. Working on...
 ```shell
 # Download the required files
-git clone --recursive -j8 https://github.com/evandrocoan/VSCodeStudio
+git clone --recursive -j8 https://github.com/evandrocoan/CodeTextStudio
+cd CodeTextStudio/vscode
 
-Working on...
+# https://github.com/Microsoft/vscode/issues/30909
+git clean -xfd .
+git pull
+./scripts/npm.sh install
+
+# https://unix.stackexchange.com/questions/3886/difference-between-nohup-disown-and
+npm run watch &
+./code
 
 # Success
 printf "Success\\!\n"
@@ -95,9 +103,17 @@ Requirements for `Windows` systems are:
 1. Working on...
 ```batch
 :: Download the required files
-git clone --recursive -j8 https://github.com/evandrocoan/VSCodeStudio
+git clone --recursive -j8 https://github.com/evandrocoan/CodeTextStudio
+cd CodeTextStudio\vscode
 
-Working on...
+:: https://github.com/Microsoft/vscode/issues/30909
+git clean -xfd .
+git pull
+.\scripts\npm.bat install
+
+:: https://superuser.com/questions/1069972/windows-run-process-on-background-after-closing-cmd
+start /B npm run watch
+.\code
 
 :: Success
 echo "Success\\!\n"

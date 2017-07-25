@@ -14,6 +14,16 @@
             ],
             "folder_exclude_patterns":
             [
+                "out",
+                "coverage",
+                "node_modules",
+                "out-build",
+                "out-editor",
+                "out-editor-min",
+                "out-monaco-editor-core",
+                "out-vscode",
+                "out-vscode-min",
+                "build/node_module",
                 "settings/Cache",
                 "settings/CachedData",
                 "settings/GPUCache",
