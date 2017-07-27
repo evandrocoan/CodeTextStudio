@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "terminal.integrated.shell.windows": "D:\\User\\Documents\\Cygwin64\\bin\\sh.exe",
+    "terminal.integrated.shell.windows": "sh.exe",
     "terminal.integrated.shellArgs.windows": ["-l"],
     "editor.fontSize": 15,
     "markdown.preview.fontSize": 15,
@@ -15,6 +15,8 @@
     "editor.renderWhitespace": "none",
     "workbench.colorCustomizations":
     {
+        "terminal.background": "#000000",
+        "terminal.foreground": "#e5e5e5",
         "editor.foreground": "#000000",
         "editor.background": "#FFFFFF",
         "editorLineNumber.foreground": "#8c8c8c",
