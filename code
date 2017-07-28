@@ -1,18 +1,25 @@
+#!/bin/sh
 
-
+#
 # Command Line
 # https://code.visualstudio.com/docs/editor/command-line
+#
 
+# Reliable way for a bash script to get the full path to itself?
+# http://stackoverflow.com/questions/4774054/reliable-way-for-a-bash-script-to-get-the-full-path-to-itself
+pushd `dirname $0` > /dev/null
+SCRIPT_FOLDER_PATH=`pwd`
+popd > /dev/null
 
 # Specifies the directory that user data is kept in, useful when running as root.
 # --user-data-dir <dir>
-
+#
 # Set the root path for extensions.
 # --extensions-dir <dir>
-
+#
 # All command line arguments passed to this file
-# %*
-
-./vscode/scripts/code.sh --user-data-dir "F:/VSCodeStudio/settings" --extensions-dir "F:/VSCodeStudio/settings/extensions" . %*
+# $@
+#
+./vscode/scripts/code.sh --user-data-dir "$SCRIPT_FOLDER_PATH\settings" --extensions-dir "$SCRIPT_FOLDER_PATH\extensions" . $@
 
 
