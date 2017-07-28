@@ -20,6 +20,6 @@ popd > /dev/null
 # All command line arguments passed to this file
 # $@
 #
-./vscode/scripts/code.sh --user-data-dir "$SCRIPT_FOLDER_PATH\settings" --extensions-dir "$SCRIPT_FOLDER_PATH\extensions" . $@
+./vscode/scripts/code.sh --user-data-dir "$SCRIPT_FOLDER_PATH\settings" --extensions-dir "$SCRIPT_FOLDER_PATH\extensions" $@
 
 
