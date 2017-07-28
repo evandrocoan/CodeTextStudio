@@ -20,6 +20,10 @@ popd > /dev/null
 # All command line arguments passed to this file
 # $@
 #
-./vscode/scripts/code.sh --user-data-dir "$SCRIPT_FOLDER_PATH\settings" --extensions-dir "$SCRIPT_FOLDER_PATH\extensions" $@
+# How do I use the nohup command without getting nohup.out?
+# https://stackoverflow.com/questions/10408816/how-do-i-use-the-nohup-command-without-getting-nohup-out
+#
+nohup ./vscode/scripts/code.sh --user-data-dir "$SCRIPT_FOLDER_PATH\settings" --extensions-dir "$SCRIPT_FOLDER_PATH\extensions" $@ &> /dev/null &
 
+exit 0
 

@@ -20,6 +20,10 @@ popd > /dev/null
 # All command line arguments passed to this file
 # $@
 #
-./vscode/scripts/code-cli.sh --user-data-dir "$SCRIPT_FOLDER_PATH\settings" --extensions-dir "$SCRIPT_FOLDER_PATH\extensions" $@
+# Difference between nohup, disown and &
+# https://unix.stackexchange.com/questions/3886/difference-between-nohup-disown-and
+#
+./vscode/scripts/code-cli.sh --user-data-dir "$SCRIPT_FOLDER_PATH\settings" --extensions-dir "$SCRIPT_FOLDER_PATH\extensions" $@ &
 
+exit 0
 
