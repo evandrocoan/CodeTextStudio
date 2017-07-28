@@ -1,7 +1,7 @@
 @echo off
 
 ::
-:: Calls .\vscode\scripts\code.bat without creating a terminal window
+:: Calls .\vscode\scripts\code-cli.bat
 ::
 :: Command Line
 :: https://code.visualstudio.com/docs/editor/command-line
@@ -20,10 +20,10 @@
 :: All command line arguments passed to this file
 :: %*
 ::
-:: Escaping Double Quotes in Batch Script
-:: https://stackoverflow.com/questions/562038/escaping-double-quotes-in-batch-script
+:: Windows - Run process on background after closing cmd
+:: https://superuser.com/questions/1069972/windows-run-process-on-background-after-closing-cmd
 ::
-wscript .\tools\scripts\silent_run.vbs ".\vscode\scripts\code.bat" --user-data-dir "%~dp0settings" --extensions-dir "%~dp0extensions" %*
+start /B /min .\vscode\scripts\code-cli.bat --user-data-dir "%~dp0settings" --extensions-dir "%~dp0extensions" %*
 
 
 
