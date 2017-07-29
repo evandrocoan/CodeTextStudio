@@ -66,6 +66,10 @@ printf "Success\!\n"
 git clone --recursive -j8 https://github.com/evandrocoan/CodeTextStudio
 cd CodeTextStudio/vscode
 
+# Configure the environment
+npm install -g typescript
+git submodule foreach 'git checkout master; npm install; tsc -p . || :'
+
 # https://github.com/Microsoft/vscode/issues/30909
 git clean -xfd .
 git pull
@@ -105,6 +109,10 @@ Requirements for `Windows` systems are:
 :: Download the required files
 git clone --recursive -j8 https://github.com/evandrocoan/CodeTextStudio
 cd CodeTextStudio\vscode
+
+:: Configure the environment
+npm install -g typescript
+git submodule foreach 'git checkout master; npm install; tsc -p . || :'
 
 :: https://github.com/Microsoft/vscode/issues/30909
 git clean -xfd .
