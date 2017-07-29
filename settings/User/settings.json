@@ -44,5 +44,6 @@
         "*.inc": "pawn"
     },
     "workbench.commandPalette.preserveInput": true,
-    "editor.autoIndent": true
+    "editor.autoIndent": true,
+    "sublimeTextKeymap.promptV3Features": true
 }

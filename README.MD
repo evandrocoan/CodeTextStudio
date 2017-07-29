@@ -119,8 +119,8 @@ git clean -xfd .
 git pull
 .\scripts\npm.bat install
 
-:: https://superuser.com/questions/1069972/windows-run-process-on-background-after-closing-cmd
-start /B npm run watch
+:: https://superuser.com/questions/1235582/how-to-run-a-windows-batch-process-in-background-but
+cmd /c start /B npm run watch
 .\code
 
 :: Success
@@ -132,7 +132,7 @@ echo "Success\\!\n"
 
 
 
-## Manually Install Extensions
+# Manually Install Extensions
 
 First make sure you do not have the extension installed in `~/.vscode/extensions` and that you have
 TypeScript installed:
