@@ -7,3 +7,36 @@
 [submodule "tools/scripts"]
 	path = tools/scripts
 	url = https://github.com/evandrocoan/Scripts
+[submodule "extensions/indenticator"]
+	path = extensions/indenticator
+	url = https://github.com/SirTori/indenticator
+[submodule "extensions/NotepadPlusPlus-Remixed-Theme"]
+	path = extensions/NotepadPlusPlus-Remixed-Theme
+	url = https://github.com/s-h-a-d-o-w/NotepadPlusPlus-Remixed-Theme
+[submodule "extensions/primer-theme"]
+	path = extensions/primer-theme
+	url = https://github.com/thecodechef/primer-theme
+[submodule "extensions/pythonVSCode"]
+	path = extensions/pythonVSCode
+	url = https://github.com/DonJayamanne/pythonVSCode
+[submodule "extensions/vscode-chrome-debug"]
+	path = extensions/vscode-chrome-debug
+	url = https://github.com/Microsoft/vscode-chrome-debug
+[submodule "extensions/vscode-markdownlint"]
+	path = extensions/vscode-markdownlint
+	url = https://github.com/DavidAnson/vscode-markdownlint
+[submodule "extensions/vscode-php-debug"]
+	path = extensions/vscode-php-debug
+	url = https://github.com/felixfbecker/vscode-php-debug
+[submodule "extensions/vscode-php-intellisense"]
+	path = extensions/vscode-php-intellisense
+	url = https://github.com/felixfbecker/vscode-php-intellisense
+[submodule "extensions/vscode-php-pack"]
+	path = extensions/vscode-php-pack
+	url = https://github.com/felixfbecker/vscode-php-pack
+[submodule "extensions/vscode-projects-plus"]
+	path = extensions/vscode-projects-plus
+	url = https://github.com/fabiospampinato/vscode-projects-plus
+[submodule "extensions/vscode-sublime-keybindings"]
+	path = extensions/vscode-sublime-keybindings
+	url = https://github.com/Microsoft/vscode-sublime-keybindings

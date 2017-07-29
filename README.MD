@@ -161,8 +161,14 @@ For more information see:
 1. The [LICENSE](LICENSE) file for the GPL v3.0 license
 1. The website https://www.gnu.org/licenses/gpl-3.0.en.html
 
-All the other files within each git submodule have its own license specified. You can see the list
-of git submodules on the file [.gitmodules](.gitmodules) on this project root directory.
+All the other files within each git submodule have its own license specified, except until 28/07/2017,
+where the following linked packages as `git submodules` by the file [.gitmodules](.gitmodules),
+does not include an explicit license from their original author:
 
+nº | Directory on extensions folder     | Github URL
+-- | ---------------------------------- | --------------------------------------------------------------
+1  | NotepadPlusPlus-Remixed-Theme      | https://github.com/s-h-a-d-o-w/NotepadPlusPlus-Remixed-Theme
+2  | primer-theme                       | https://github.com/thecodechef/primer-theme
+3  | vscode-php-intellisense            | https://github.com/felixfbecker/vscode-php-intellisense
 
 

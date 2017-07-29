@@ -4,7 +4,6 @@
 # Start ignoring things
 *.sublime-workspace
 
-extensions
 
 settings/Backups
 settings/Cache

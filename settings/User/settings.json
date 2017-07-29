@@ -8,6 +8,7 @@
     "workbench.colorTheme": "NotepadPlusPlus Remixed Theme",
     "workbench.startupEditor": "newUntitledFile",
     "workbench.activityBar.visible": false,
+    "extensions.autoUpdate": false,
     "editor.mouseWheelScrollSensitivity": 3,
     "window.zoomLevel": 1.1,
     "editor.rulers": [ 100 ],
@@ -37,7 +38,7 @@
     "indenticator.style": "dotted",
     "indenticator.color.light": "#FF0000",
     "files.defaultLanguage": "cpp",
-    "files.associations": 
+    "files.associations":
     {
         "*.sma": "pawn",
         "*.inc": "pawn"
