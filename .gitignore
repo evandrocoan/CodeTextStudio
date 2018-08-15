@@ -19,5 +19,7 @@
 
 /settings/logs/**
 /settings/machineid
+/settings/User/workspaceStorage/**
 
+/extensions/ms-vsliveshare.vsliveshare**
 
