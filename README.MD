@@ -70,6 +70,8 @@ cd CodeTextStudio/vscode
 npm install -g typescript
 git submodule foreach 'git checkout master; npm install; tsc -p . || :'
 
+cd vscode
+
 # https://github.com/Microsoft/vscode/issues/30909
 git clean -xfd .
 git pull
@@ -77,6 +79,8 @@ git pull
 
 # https://unix.stackexchange.com/questions/3886/difference-between-nohup-disown-and
 npm run watch &
+
+cd -
 ./code
 
 # Success
