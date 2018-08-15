@@ -45,5 +45,7 @@
     },
     "workbench.commandPalette.preserveInput": true,
     "editor.autoIndent": true,
-    "sublimeTextKeymap.promptV3Features": true
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.trimAutoWhitespace": true,
+    "files.insertFinalNewline": true
 }
