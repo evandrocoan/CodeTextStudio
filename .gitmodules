@@ -40,3 +40,6 @@
 [submodule "extensions/vscode-sublime-keybindings"]
 	path = extensions/vscode-sublime-keybindings
 	url = https://github.com/Microsoft/vscode-sublime-keybindings
+[submodule "extensions/NotepadPlusPlusColorScheme"]
+	path = extensions/NotepadPlusPlusColorScheme
+	url = https://github.com/evandrocoan/NotepadPlusPlusColorScheme
