@@ -47,5 +47,6 @@
     "editor.autoIndent": true,
     "sublimeTextKeymap.promptV3Features": true,
     "editor.trimAutoWhitespace": true,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "workbench.list.openMode": "doubleClick"
 }
