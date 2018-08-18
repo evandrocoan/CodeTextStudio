@@ -100,7 +100,7 @@ Requirements for `Windows` systems are:
 
     :: https://superuser.com/questions/1235582/how-to-run-a-windows-batch-process-in-background-but
     cmd /c start /B npm run watch
-    .\code
+    .\code.bat
 
     :: Success
     echo "Success\\!\n"
