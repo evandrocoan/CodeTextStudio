@@ -43,3 +43,6 @@
 [submodule "extensions/NotepadPlusPlusColorScheme"]
 	path = extensions/NotepadPlusPlusColorScheme
 	url = https://github.com/evandrocoan/NotepadPlusPlusColorScheme
+[submodule "extensions/vscode-copy-with-line-numbers"]
+	path = extensions/vscode-copy-with-line-numbers
+	url = https://github.com/evandroforks/vscode-copy-with-line-numbers
