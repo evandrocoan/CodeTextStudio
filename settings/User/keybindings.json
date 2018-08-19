@@ -1,0 +1,23 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+numpad_divide",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+numpad_divide",
+        "command": "editor.action.blockComment",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+/",
+        "command": "-editor.action.blockComment",
+        "when": "editorFocus"
+    }
+]
