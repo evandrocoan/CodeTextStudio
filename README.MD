@@ -54,12 +54,14 @@ Requirements for `Linux` systems are:
     git submodule foreach 'git checkout master; npm install; tsc -p . || :'
 
     # https://github.com/Microsoft/vscode/issues/30909
-    git clean -xfd .
-    git pull
-    ./scripts/npm.sh install
+    # git clean -xfd .
+    # git pull
+    # ./scripts/npm.sh install
+    yarn
 
     # https://unix.stackexchange.com/questions/3886/difference-between-nohup-disown-and
-    npm run watch &
+    # npm run watch &
+    # yarn watch
 
     cd ..
     # .\code.bat
@@ -94,12 +96,14 @@ Requirements for `Windows` systems are:
     git submodule foreach 'git checkout master; npm install; tsc -p . || :'
 
     :: https://github.com/Microsoft/vscode/issues/30909
-    git clean -xfd .
-    git pull
-    .\scripts\npm.bat install
+    :: git clean -xfd .
+    :: git pull
+    :: .\scripts\npm.bat install
+    :: yarn watch
+    yarn
 
     :: https://superuser.com/questions/1235582/how-to-run-a-windows-batch-process-in-background-but
-    cmd /c start /B npm run watch
+    :: cmd /c start /B npm run watch
     .\code.bat
 
     :: Success
