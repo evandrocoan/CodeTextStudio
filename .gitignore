@@ -1,9 +1,7 @@
 
 
-
 # Start ignoring things
 *.sublime-workspace
-
 
 /settings/Backups
 /settings/Cache
@@ -11,6 +9,7 @@
 /settings/Cookies
 /settings/-journal
 /settings/Cookies-journal
+/settings/User/globalStorage
 /settings/User/projects.json
 /settings/GPUCache
 /settings/Local Storage
